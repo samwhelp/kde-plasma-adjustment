@@ -8,6 +8,9 @@
 | [Kde Plasma Note](https://samwhelp.github.io/note-about-kde-plasma/) | [GitHub](https://github.com/samwhelp/note-about-kde-plasma) |
 
 
+> [Keybind Cheatsheet](https://samwhelp.github.io/kde-plasma-adjustment/read/cheatsheet/keybind.html)
+
+
 
 
 ## Subject
