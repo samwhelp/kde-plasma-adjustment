@@ -206,7 +206,8 @@ icontasks.writeConfig("launchers", [
 ////////////////////////////////////////////////////////////////////////////////
 /// Head: marginsseparator
 //
-panel.addWidget("org.kde.plasma.marginsseparator");
+
+var separator = panel.addWidget("org.kde.plasma.marginsseparator");
 
 //
 /// Tail: marginsseparator
