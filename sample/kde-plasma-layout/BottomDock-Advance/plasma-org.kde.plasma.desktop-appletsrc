@@ -28,6 +28,7 @@ remove=true
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometriesHorizontal=
 activityId=9d8ae070-8a25-4665-b7fc-5c80a2a1336e
 formfactor=0
 immutability=1
@@ -52,26 +53,27 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][2][Applets][18]
+[Containments][2][Applets][17]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][2][Applets][18][Configuration][Appearance]
+[Containments][2][Applets][17][Configuration][Appearance]
 customDateFormat=yyyy-MM-dd
 dateFormat=custom
-showSeconds=Always
+fontWeight=400
+showSeconds=2
 use24hFormat=2
 
-[Containments][2][Applets][19]
+[Containments][2][Applets][18]
 immutability=1
 plugin=org.kde.plasma.userswitcher
 
-[Containments][2][Applets][19][Configuration][General]
+[Containments][2][Applets][18][Configuration][General]
 showFace=true
 showName=false
 showTechnicalInfo=true
 
-[Containments][2][Applets][20]
+[Containments][2][Applets][19]
 immutability=1
 plugin=org.kde.plasma.minimizeall
 
@@ -102,13 +104,9 @@ wrapPage=true
 
 [Containments][2][Applets][5]
 immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][6]
-immutability=1
 plugin=org.kde.plasma.icontasks
 
-[Containments][2][Applets][6][Configuration][General]
+[Containments][2][Applets][5][Configuration][General]
 fill=false
 forceStripes=true
 iconSpacing=2
@@ -120,21 +118,21 @@ showOnlyCurrentScreen=false
 showToolTips=false
 wheelSkipMinimized=false
 
-[Containments][2][Applets][7]
+[Containments][2][Applets][6]
 immutability=1
-plugin=org.kde.plasma.panelspacer
+plugin=org.kde.plasma.marginsseparator
 
-[Containments][2][Applets][8]
+[Containments][2][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][2][Applets][8][Configuration]
-SystrayContainmentId=9
+[Containments][2][Applets][7][Configuration]
+SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;8;18;19;20
+AppletOrder=3;4;5;6;7;17;18;19
 
-[Containments][9]
+[Containments][8]
 activityId=
 formfactor=2
 immutability=1
@@ -143,46 +141,46 @@ location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][9][Applets][10]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
-
-[Containments][9][Applets][11]
+[Containments][8][Applets][10]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][9][Applets][11][Configuration][General]
+[Containments][8][Applets][10][Configuration][General]
 migrated=true
 
-[Containments][9][Applets][12]
+[Containments][8][Applets][11]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
 
-[Containments][9][Applets][13]
+[Containments][8][Applets][12]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][9][Applets][14]
+[Containments][8][Applets][13]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][9][Applets][15]
+[Containments][8][Applets][14]
 immutability=1
 plugin=org.kde.plasma.cameraindicator
 
-[Containments][9][Applets][16]
+[Containments][8][Applets][15]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
-[Containments][9][Applets][17]
+[Containments][8][Applets][16]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][9][Applets][21]
+[Containments][8][Applets][20]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][9][General]
+[Containments][8][Applets][9]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][8][General]
 extraItems=org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement
 knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement
 
