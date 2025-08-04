@@ -12,13 +12,13 @@ maxLength=1366
 minLength=128
 thickness=44
 
-[PlasmaViews][Panel 19]
+[PlasmaViews][Panel 18]
 alignment=132
 floating=1
 panelLengthMode=1
 panelOpacity=2
 
-[PlasmaViews][Panel 19][Defaults]
+[PlasmaViews][Panel 18][Defaults]
 maxLength=1366
 minLength=128
 thickness=56
