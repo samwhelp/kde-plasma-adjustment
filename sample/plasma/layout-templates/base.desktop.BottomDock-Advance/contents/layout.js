@@ -35,21 +35,31 @@ const panel = new Panel();
 
 panel.location = "bottom";
 panel.alignment = "center";
-panel.floating = false;
+panel.floating = true;
 panel.hiding = "none";
-panel.height = Math.round(gridUnit * 3.2);
-panel.lengthMode = "custom";
+//panel.height = Math.round(gridUnit * 3.2);
+panel.lengthMode = "fit";
 
-
-//
-// ## Restrict horizontal panel to a maximum size of a 16:9 monitor
-//
 
 var panelScreen = panel.screen;
 
-const maximumAspectRatio = 16/9;
+
+//
+// For an Icons-Only Task Manager on the bottom, *3 is too much, *2 is too little
+// Round down to next highest even number since the Panel size widget only displays
+// even numbers
+//
+
+panel.height = 2 * Math.floor(gridUnit * 2.5 / 2);
+
+
+//
+// ## Restrict horizontal panel to a maximum size of a 21:9 monitor
+//
+
+const maximumAspectRatio = 21/9;
 const geo = screenGeometry(panelScreen);
-const maximumWidth = Math.ceil(geo.height * maximumAspectRatio) - 100;
+const maximumWidth = Math.ceil(geo.height * maximumAspectRatio);
 
 
 //
@@ -146,7 +156,7 @@ pager.writeConfig("wrapPage", true);
 /// Head: spacer
 //
 
-var left_spacer = panel.addWidget("org.kde.plasma.panelspacer");
+//var left_spacer = panel.addWidget("org.kde.plasma.panelspacer");
 
 //
 /// Tail: spacer
@@ -194,10 +204,22 @@ icontasks.writeConfig("launchers", [
 
 
 ////////////////////////////////////////////////////////////////////////////////
+/// Head: marginsseparator
+//
+panel.addWidget("org.kde.plasma.marginsseparator");
+
+//
+/// Tail: marginsseparator
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
 /// Head: spacer
 //
 
-var right_spacer = panel.addWidget("org.kde.plasma.panelspacer");
+//var right_spacer = panel.addWidget("org.kde.plasma.panelspacer");
 
 //
 /// Tail: spacer
@@ -215,7 +237,6 @@ panel.addWidget("org.kde.plasma.systemtray");
 //
 /// Tail: systemtray
 ////////////////////////////////////////////////////////////////////////////////
-
 
 
 
