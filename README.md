@@ -68,7 +68,18 @@
 
 | Link | GitHub |
 | ---- | ------ |
+| [Kde Adjustment](https://samwhelp.github.io/kde-adjustment/) | [GitHub](https://github.com/samwhelp/kde-adjustment) |
 | [Kde Neon Adjustment](https://samwhelp.github.io/kde-neon-adjustment/) | [GitHub](https://github.com/samwhelp/kde-neon-adjustment) |
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Kubuntu Adjustment](https://samwhelp.github.io/kubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/kubuntu-adjustment) |
+| [Debian Kde Adjustment](https://samwhelp.github.io/debian-kde-adjustment/) | [GitHub](https://github.com/samwhelp/debian-kde-adjustment) |
+| [Fedora Kde Adjustment](https://samwhelp.github.io/fedora-kde-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-kde-adjustment) |
+| [Archlinux Kde Adjustment](https://samwhelp.github.io/archlinux-kde-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-kde-adjustment) |
+| [Voidlinux Kde Adjustment](https://samwhelp.github.io/voidlinux-kde-adjustment/) | [GitHub](https://github.com/samwhelp/voidlinux-kde-adjustment) |
+| [Solus Kde Adjustment](https://samwhelp.github.io/solus-kde-adjustment/) | [GitHub](https://github.com/samwhelp/solus-kde-adjustment) |
 
 
 
